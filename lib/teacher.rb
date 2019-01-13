@@ -5,6 +5,9 @@ class Teacher < User
   def teach
       random = rand(KNOWLEDGE.length)
       KNOWLEDGE[random]
+
+      #KNOWLEDGE.sample
+      #.sample chooses a random element from an array could also choose multiple random elements with .sample(n) n being the how many
   end
 
 end
